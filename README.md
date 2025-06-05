@@ -1,26 +1,32 @@
 # Jav-A-TM
 
-A functional ATM project written in Java
-This project generates an automated teller machine (ATM) that stores the user's bank account, acount number, and password. With this ATM, users will be able to:
+# ATM Machine - Java Project
 
-Make deposits
-Withdraw money
-View their account balance
-Installation
-Dependencies
-This project requires Java 8 or a later version to run
+A functional Automated Teller Machine (ATM) simulation written in Java. This project allows users to interact with a simple ATM interface to perform basic banking operations such as deposits, withdrawals, and balance inquiries.
 
-User Installation
-To run the project:
+---
 
-Clone the ATM-Machine repo to your local machine (forking first is recommended for contributors
-Make sure the ATM.java, Account.java, and OptionMenu.java files are stored in a single folder
-Use Java IDE (e.g. Eclipse ,InteliJ or NetBeans) to view these files
-You can also use commmand prompt (Windows) or terminal (Mac/Linux) and cd to the project directory to view them
-In command prompt or terminal run command : javac ATM.java
-After completion your folder will contain 3 .class files
-In command prompt/terminal run command: java ATM
-Visual
-After running the command in #7, you should see this interface:
+## Features
+
+- Store user bank account details including account number and PIN
+- Make deposits to the account
+- Withdraw money from the account
+- View current account balance
+- Secure exit after transaction completion
+
+---
+
+## Installation
+
+### Dependencies
+
+- Java 8 or later
+
+### User Installation Steps
+
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/ATM-Machine.git
+
 
 ATM interface
